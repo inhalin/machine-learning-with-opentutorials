@@ -73,7 +73,7 @@ print(independent.shape, dependent.shape)
 # 불러온 데이터의 모양 확인
 (506, 14)
 
-# 불러운 데이터의 컬럼(특성) 확인
+# 불러온 데이터의 컬럼(특성) 확인
 Index(['crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis', 'rad', 'tax',
        'ptratio', 'b', 'lstat', 'medv'],
       dtype='object')
@@ -111,5 +111,5 @@ model.compile(loss='mse')
 Y = W1X1 + W2X2 + ... + W13X13 + b
 ```
 
-이 모형을 **퍼셉트론**이라고 하고, `W1, w2, ..., w3`를 **가중치(Weight)**, `b`는 **편향(bias)**이라고 한다.
+이 모형을 **퍼셉트론**이라고 하고, `W1, W2, ..., W3`를 **가중치(Weight)**, `b`는 **편향(bias)**이라고 한다.
 
